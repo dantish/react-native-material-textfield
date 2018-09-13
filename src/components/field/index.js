@@ -342,6 +342,7 @@ export default class TextField extends PureComponent {
       labelPadding,
       inputContainerPadding,
       labelTextStyle,
+      labelProps,
       titleTextStyle,
       tintColor,
       baseColor,
@@ -495,6 +496,7 @@ export default class TextField extends PureComponent {
       errored,
       restricted,
       style: labelTextStyle,
+      ...labelProps,
     };
 
     let counterProps = {
